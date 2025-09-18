@@ -28,14 +28,13 @@ tb{
 	color: white;
 	border-style: solid;
 }
-a{
-	font-size:25px; 
-	margin-right: 1rem
-}
 table{
 	border-style: solid;
 	border-color: white;
 	background-color: #004357;
 	margin-left: auto;
 	margin-right: auto;
+}
+p{
+	text-align: center;
 }
