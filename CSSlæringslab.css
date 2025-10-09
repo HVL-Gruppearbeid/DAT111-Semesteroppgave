@@ -18,13 +18,13 @@ pre{
 }
 tr{
 	text-align: center;
-	background-color: #004357;
+	background-color: #066480;
 	color: white;
 	border-style: solid;
 }
 tb{
 	text-align: center;
-	background-color: #004357;
+	background-color: #066480;
 	color: white;
 	border-style: solid;
 }
@@ -41,9 +41,25 @@ p{
 li{
 	font-size:20px;
 }
-div{
+divEkstra{
   margin: auto;
   width: 50%;
   border: 3px solid green;
   padding: 10px;
+}
+.outerborder {
+  padding: 20px;
+  background-color: #004357; 
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.content {
+  background-color: white; 
+  padding: 20px;
+  border-radius: 5px;
+}
+.centering{
+	text-align: center;
 }
