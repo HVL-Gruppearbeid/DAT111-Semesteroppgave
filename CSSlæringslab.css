@@ -22,11 +22,12 @@ tr{
 	color: white;
 	border-style: solid;
 }
-tb{
+td{
 	text-align: center;
 	background-color: #066480;
 	color: white;
 	border-style: solid;
+	
 }
 table{
 	border-style: solid;
