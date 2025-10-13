@@ -1,4 +1,4 @@
-h1{
+h2{
 	text-align: center;
 	background-color:#ebf9fa
 	
@@ -63,4 +63,42 @@ divEkstra{
 }
 .centering{
 	text-align: center;
+}
+.fornuftigSkriftStørrelse{
+	font-family: arial;
+	font-size:20px;
+}
+	
+ .bildestørrelse{
+	 width: 256px;
+	 height: 256px;
+ }
+	
+.center-navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #004357;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: fit-content;
+}
+.center-navbar a {
+  color: white; 
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.toppen-av-siden {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.side-titel {
+  text-align: center;
+  font-size: 50px;
+  margin: 0px 120px;
 }
