@@ -1,18 +1,151 @@
-h1{
-	align: center
+
+h2{
+	text-align: center;
 	background-color:#ebf9fa
 	
 }
 h3{
-	align: center
-}
-a{
-	style:font-size:25px; 
-	margin-right: 1rem
 	text-align: center
 }
+a{
+	font-size:25px;
+	margin-right: 1rem;
+	
+}
 pre{
-	stylefont-family:arial;
-	background-color:#ebf9fa
-	align: center
+	font-family: arial;
+	background-color:#ebf9fa;
+	text-align: center
+}
+tr{
+	text-align: center;
+	background-color: #066480;
+	color: white;
+	border-style: solid;
+}
+td{
+	text-align: center;
+	background-color: #066480;
+	color: white;
+	border-style: solid;
+	
+}
+table{
+	border-style: solid;
+	border-color: white;
+	background-color: #004357;
+	margin-left: auto;
+	margin-right: auto;
+}
+p{
+	text-align: center;
+}
+li{
+	font-size:20px;
+}
+divEkstra{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+.outerborder {
+  padding: 20px;
+  background-color: #004357; 
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.content {
+  background-color: white; 
+  padding: 20px;
+  border-radius: 5px;
+}
+.centering{
+	text-align: center;
+}
+.fornuftigSkriftStørrelse{
+	font-family: arial;
+	font-size:20px;
+}
+	
+ .bildestørrelse{
+	 width: 256px;
+	 height: 256px;
+ }
+	
+.center-navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #004357;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 40px auto;
+  width: fit-content;
+}
+.center-navbar a {
+  color: white; 
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.toppen-av-siden {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.side-titel {
+  text-align: center;
+  font-size: 50px;
+  margin: 0px 120px;
+}
+.portrett{
+	margin-left: auto;
+	margin-right:auto;
+	display: block;
+}
+.navbar ul{
+	list-style-type: none;
+	background-color: #004357;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: left;
+	position: sticky;
+}
+.navbar a {
+	color: white;
+	text-decoration: none;
+	padding: 14px 16px;
+	display: block;
+	text-align: center;
+}
+.navbar a:hover{
+	background-color: #001318
+}
+.navbar li{
+	float: left;
+	border-right: 1px solid #bbbbbb
+}
+.navbar li:last-child{
+	border-right: none;
+}
+aside {
+	float: left;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 8px;
+  text-align: center;
+  z-index: 1000;
 }
