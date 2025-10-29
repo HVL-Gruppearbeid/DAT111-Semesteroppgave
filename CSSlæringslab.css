@@ -6,6 +6,7 @@ h2{
 }
 h3{
 	text-align: center
+	background-color:#ebf9fa
 }
 a{
 	font-size:25px;
@@ -190,4 +191,10 @@ label{
 
 .button:hover {
   background-color: #003646;
+}
+
+.adresse {
+	font-family: arial;
+	font-size:14px;
+	color: white;
 }

@@ -8,7 +8,7 @@
 		
 	<body class="outerborder">
 		<div class="content">
-			<a href="index.html"><img src="logo.png" alt="logo" width="250"></a>
+			<a href="https://www.hvl.no/"><img src="logo.png" alt="HVL logo" width="250"></a>
 		
 			<nav class="navbar">
 				<ul>
@@ -18,22 +18,23 @@
 				<li><a href="EksemplerTilTeknologiBruk.html" title="Eksempler til våre teknologier!"> Bruk av våre teknologier</a></li>
 				<li><a href="MerOmOss.html" title="MerOmOss!"> Mer om oss</a></li>
 				<li><a href="Kontaktoss.html" title="Sender deg til Kontakt Oss siden"> Kontakt Oss </a></li>
+				<li><a href="Registrering.html" title="Logg inn eller registrer deg"> Login/Registrer </a></li>
 				</ul>
 			</nav>
 			<br>
 			<br>
 			<h1> Registrer bruker</h1>
 			<br>
-			<form id="form1">
-				<label for="sNummer">Studentnummer:</label>
-				<input type="text" id="sNummer" name="sNummer">
-				<label for="Passord">Passord:</label>
+			<form id="form1" action="Logget_inn.html">
+				<label for="bruker">Brukernavn:</label>
+				<input type="text" id="bruker" name="bruker">
+				<label for="passord">Passord:</label>
 				<input type="password" id="passord" name="Passord">
+				
+				<button class="button" type="submit" form="form1" value="Registrer">Registrer</button>
 			
 			</form>
-				<a href="Logget_inn.html">
-					<button class="button"type="submit" form="form1" value="Registrer">Registrer</button>
-				</a>
+				
 		</div>	
 	</body>	
 </html>	
